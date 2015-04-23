@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["coleww@gmail.com"]
   spec.summary       = %q{framework-agnostic-scaffolding tool}
   spec.description   = %q{because sometimes i type rails g inside my ember project and vice versa}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/coleww/g"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
