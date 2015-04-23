@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Cole Willsea"]
   spec.email         = ["coleww@gmail.com"]
   spec.summary       = %q{framework-agnostic-scaffolding tool}
-  spec.description   = %q{because sometimes i type rails g inside my ember project and vice versa}
+  spec.description   = %q{because sometimes I type rails g inside my ember project and vice versa}
   spec.homepage      = "https://github.com/coleww/g"
   spec.license       = "MIT"
 
