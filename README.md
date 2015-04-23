@@ -1,26 +1,17 @@
 # Geee
 
-TODO: Write a gem description
+run CLI generator commands without paying attention to what framework you are using.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'geee'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
     $ gem install geee
+
+Will add `g` to yr path
 
 ## Usage
 
-TODO: Write usage instructions here
+g accepts any and all arguments and/or options that ember generate and rails generate accept.
+g figures out what kind of project folder you are in, and prepends the correct framework name.
 
 ## Contributing
 
