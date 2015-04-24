@@ -2,6 +2,8 @@
 
 Run CLI generator commands without paying attention to where you are or what you are really doing.
 
+![demo](./g-demo.gif)
+
 ## Installation
 
 Because somebody already has a gem named "g", you must:
