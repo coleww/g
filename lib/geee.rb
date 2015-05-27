@@ -3,9 +3,9 @@ require "geee/version"
 module Geee
   def self.generate(arg_string)
     if File.exist?('bin/rails')
-      puts `rails generate #{arg_string}`
+      exec "rails generate #{arg_string}"
     elsif File.exist?('.ember-cli')
-      puts `ember generate #{arg_string}`
+      exec "ember generate #{arg_string}"
     else
       puts 'you are not currently inside of a monolith'
     end
